@@ -13,9 +13,6 @@ call vundle#end()
 filetype plugin indent on
 
 
-" NERDTree shortcut
-map <C-n> :NERDTreeToggle<CR>
-
 " global preferences "
 colorscheme industry
 set nu

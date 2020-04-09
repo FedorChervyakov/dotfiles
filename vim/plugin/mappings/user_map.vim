@@ -9,10 +9,10 @@ nmap <leader>bq :bp <BAR> bd #<CR>
 " Show all open buffers and their status
 nmap <leader>bl :ls<CR>
 
-nmap <C-h> :nohl<CR>
-nmap <C-x> :set list!<CR>
-nmap <C-I> :set paste!<CR>
-nmap <C-s> :set spell!<CR>
+"nmap <C-h> :nohl<CR>
+"nmap <C-x> :set list!<CR>
+"nmap <C-I> :set paste!<CR>
+"nmap <C-s> :set spell!<CR>
 
 " Toggle colorcolumn. For example used in Git commits
 
@@ -24,4 +24,8 @@ fun! ToggleColorColumn()
   endif
 endfun
 
-nmap <C-n> :call ToggleColorColumn()<CR>
+nmap <C-h> :call ToggleColorColumn()<CR>
+
+
+" NERDTree shortcut
+map <C-n> :NERDTreeToggle<CR>
