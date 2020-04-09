@@ -1,10 +1,10 @@
 [user]
-	name = Georgii Staroselskii
-	email = georgii.staroselskii@emlid.com
+	name = Fedor Chervyakov
+	email = fedor.chervyakov@emlid.com
 [alias]
     lg = log --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit
     unstage = reset HEAD
-    st = status -sb
+    st = status
     undo = checkout --
     subupdate = submodule update --init --recursive
     cpick = cherry-pick
