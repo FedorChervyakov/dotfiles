@@ -49,7 +49,7 @@ set expandtab
 
 " highlighting
 syntax on
-"set relativenumber
+set relativenumber
 set hlsearch
 
 filetype indent on
