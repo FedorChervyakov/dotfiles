@@ -2,7 +2,7 @@ filetype off
 set nocompatible
 
 set rtp+=~/.vim/bundle/Vundle.vim
-call vundle#rc()
+call vundle#begin()
 
 Plugin 'scrooloose/nerdtree'
 Plugin 'tpope/vim-fugitive'
