@@ -11,6 +11,7 @@
     branchdate =  ! ~/.git/helpers/git-branchdate-helper
     cm = commit --verbose
     lgpretty = log --graph --all
+    br = branch
 
 [merge]
 	tool = vimdiff
