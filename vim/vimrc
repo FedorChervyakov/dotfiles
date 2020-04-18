@@ -8,6 +8,7 @@ Plugin 'scrooloose/nerdtree'
 Plugin 'tpope/vim-fugitive'
 Plugin 'tmux-plugins/vim-tmux-focus-events'
 Plugin 'mileszs/ack.vim'
+Plugin 'universal-ctags/ctags'
 
 call vundle#end()
 filetype plugin indent on
@@ -51,6 +52,9 @@ set expandtab
 syntax on
 set relativenumber
 set hlsearch
+
+" Folding
+set foldmethod=syntax
 
 filetype indent on
 
