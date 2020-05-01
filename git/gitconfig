@@ -12,6 +12,8 @@
     cm = commit --verbose
     lgpr = log --graph --all
     br = branch
+    co = checkout
+    g = grep --break --heading --line-number
 
 [merge]
 	tool = vimdiff
