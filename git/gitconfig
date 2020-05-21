@@ -25,3 +25,5 @@
 	ui = auto
 [gpg]
 	program = gpg2
+[diff]
+	submodule = log
