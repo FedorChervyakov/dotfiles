@@ -5,9 +5,16 @@ if [ -d "$HOME/bin" ] ; then
     PATH="$HOME/bin:$PATH"
 fi
 
-
 if [ -d "$HOME/.local/bin" ] ; then
     PATH=$PATH:"$HOME/.local/bin"
+fi
+
+if [ -d "/opt/intel/19.1/quartus/bin" ] ; then
+    PATH=$PATH:"/opt/intel/19.1/quartus/bin"
+fi
+
+if [ -d "/opt/intel/19.1/modelsim_ase/bin" ] ; then
+    PATH=$PATH:"/opt/intel/19.1/modelsim_ase/bin"
 fi
 
 export PATH
