@@ -10,6 +10,7 @@ Plugin 'tmux-plugins/vim-tmux-focus-events'
 Plugin 'mileszs/ack.vim'
 Plugin 'universal-ctags/ctags'
 Plugin 'suoto/vim-hdl'
+Plugin 'lervag/vim-foam'
 
 call vundle#end()
 filetype plugin indent on
