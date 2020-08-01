@@ -79,3 +79,12 @@ set listchars=eol:$,tab:>-,trail:~,extends:>,precedes:<
 set laststatus=2
 
 set updatetime=100
+
+" Airline
+let g:airline_theme='deus'
+" enable YCM integration
+let g:airline#extensions#ycm#enabled = 1
+" set error count prefix
+let g:airline#extensions#ycm#error_symbol = 'E:'
+" set warning count prefix
+let g:airline#extensions#ycm#warning_symbol = 'W:'
