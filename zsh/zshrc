@@ -27,6 +27,8 @@ vi-mode
 zsh-autosuggestions
 history-search-multi-word
 pip
+docker
+docker-compose
 )
 
 source $ZSH/oh-my-zsh.sh
