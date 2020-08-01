@@ -58,4 +58,4 @@ esac
 
 export GCC_COLORS=auto
 stty -ixon
-ACK_PAGER=less
+export ACK_PAGER='less -FRSX'
