@@ -12,6 +12,8 @@ Plugin 'universal-ctags/ctags'
 Plugin 'suoto/vim-hdl'
 Plugin 'lervag/vim-foam'
 Plugin 'ycm-core/YouCompleteMe'
+Plugin 'vim-airline/vim-airline'
+Plugin 'vim-airline/vim-airline-themes'
 
 call vundle#end()
 filetype plugin indent on
