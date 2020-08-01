@@ -61,7 +61,17 @@ set relativenumber
 set hlsearch
 
 " Folding
-set foldmethod=syntax
+set foldenable
+
+set foldmethod=marker
+
+au FileType sh let g:sh_fold_enabled=7
+
+au FileType sh let g:is_bash=1
+
+au FileType sh set foldmethod=syntax
+
+syntax enable
 
 filetype indent on
 
