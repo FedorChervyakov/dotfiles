@@ -10,7 +10,7 @@
     cpick = cherry-pick
     branchdate =  ! ~/.git/helpers/git-branchdate-helper
     cm = commit --verbose
-    lgpr = log --graph --all
+    lgpr = log --graph --all --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit
     br = branch
     co = checkout
     g = grep --break --heading --line-number
