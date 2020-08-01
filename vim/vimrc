@@ -25,8 +25,8 @@ filetype plugin indent on
 colorscheme industry
 set nu
 set t_Co=256
-set mouse=a 
-set termencoding=utf-8 
+set mouse=a
+set termencoding=utf-8
 set clipboard=unnamedplus
 set clipboard=unnamed
 
@@ -34,7 +34,7 @@ set clipboard=unnamed
 set viminfo^=%
 
 " Backup
-set undofile      
+set undofile
 set noswapfile
 set nobackup
 
@@ -42,7 +42,7 @@ set nobackup
 set noerrorbells
 set novisualbell
 
-" search 
+" search
 set smartcase
 set ignorecase
 set incsearch
