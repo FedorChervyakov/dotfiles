@@ -81,6 +81,8 @@ set laststatus=2
 
 set updatetime=100
 
+set langmap=ФИСВУАПРШОЛДЬТЩЗЙКЫЕГМЦЧНЯЖ;ABCDEFGHIJKLMNOPQRSTUVWXYZ:,фисвуапршолдьтщзйкыегмцчня;abcdefghijklmnopqrstuvwxyz
+
 " Airline
 let g:airline_theme='deus'
 " enable YCM integration
