@@ -16,6 +16,7 @@ Plugin 'vim-airline/vim-airline'
 Plugin 'vim-airline/vim-airline-themes'
 Plugin 'godlygeek/tabular'
 Plugin 'kkoomen/vim-doge'
+Plugin 'turbio/bracey.vim'
 
 call vundle#end()
 filetype plugin indent on
