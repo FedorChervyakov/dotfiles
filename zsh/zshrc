@@ -49,8 +49,11 @@ alias waf="$PWD/modules/waf/waf-light"
 alias ccat='pygmentize -g -O style=colorful,linenos=1'
 alias realpath='python -c "import os; import sys; print(os.path.realpath(sys.argv[1]))"'
 alias g='git'
-alias ltspice='wine ~/.wine/drive_c/Program\ Files/LTC/LTspiceXVII/XVIIx64.exe -wine'
 alias nios2shell='/opt/intel/quartus/20.1/nios2eds/nios2_command_shell.sh'
+
+ltspice() {
+    wine ~/.wine/drive_c/Program\ Files/LTC/LTspiceXVII/XVIIx64.exe -wine "$1" -- 2>/dev/null 1>/dev/null &
+}
 
 case `uname` in
       Darwin)
