@@ -17,13 +17,4 @@ if [ -d "/opt/intel/19.1/modelsim_ase/bin" ] ; then
     PATH=$PATH:"/opt/intel/19.1/modelsim_ase/bin"
 fi
 
-
-if [ -d "/opt/STMicroelectronics/STM32Cube/STM32CubeMX" ] ; then
-    PATH=$PATH:"/opt/STMicroelectronics/STM32Cube/STM32CubeMX"
-fi
-
-if [ -d "/opt/STMicroelectronics/STM32Cube/STM32CubeProgrammer/bin" ] ; then
-    PATH=$PATH:"/opt/STMicroelectronics/STM32Cube/STM32CubeProgrammer/bin"
-fi
-
 export PATH
