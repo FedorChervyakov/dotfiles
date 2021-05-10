@@ -9,16 +9,12 @@ if [ -d "$HOME/.local/bin" ] ; then
     PATH=$PATH:"$HOME/.local/bin"
 fi
 
-if [ -d "/opt/intel/quartus/20.1/quartus/bin" ] ; then
-    PATH=$PATH:"/opt/intel/quartus/20.1/quartus/bin"
+if [ -d "/opt/intel/19.1/quartus/bin" ] ; then
+    PATH=$PATH:"/opt/intel/19.1/quartus/bin"
 fi
 
-if [ -d "/opt/intel/quartus/20.1/quartus/sopc_builder/bin" ] ; then
-    PATH=$PATH:"/opt/intel/quartus/20.1/quartus/sopc_builder/bin"
-fi
-
-if [ -d "/opt/intel/quartus/20.1/modelsim_ase/bin" ] ; then
-    PATH=$PATH:"/opt/intel/quartus/20.1/modelsim_ase/bin"
+if [ -d "/opt/intel/19.1/modelsim_ase/bin" ] ; then
+    PATH=$PATH:"/opt/intel/19.1/modelsim_ase/bin"
 fi
 
 
